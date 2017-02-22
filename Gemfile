@@ -7,7 +7,6 @@ end
 
 
 gem 'rails', '~> 5.0.1'
-gem 'mysql2', '>= 0.3.18', '< 0.5'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -33,6 +32,7 @@ gem 'will_paginate-bootstrap'
 gem 'rails-html-sanitizer'
 gem 'sdoc'
 
+gem 'sqlite3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -40,6 +40,8 @@ gem 'sdoc'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'mysql2', '>= 0.3.18', '< 0.5'
+
 end
 
 group :development do
