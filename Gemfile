@@ -54,6 +54,8 @@ group :development do
   gem 'mini_backtrace'
   gem 'guard-minitest'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'pry-nav'
+  gem 'pry'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
